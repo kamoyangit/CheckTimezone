@@ -5,8 +5,8 @@ import os
 
 # --- デバッグフラグ ---
 # ここをTrue/Falseで切り替える
-DEBUG = os.environ.get('DEBUG_OPTION', False)
-
+DEBUG_str = os.environ.get('DEBUG_OPTION', 'false').lower() # 値を小文字に統一
+DEBUG = (DEBUG_str == 'true')
 # --------------------
 
 # --- ヘルパー関数 ---
