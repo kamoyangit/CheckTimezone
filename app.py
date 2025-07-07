@@ -31,4 +31,4 @@ st.write(f"現在の日本時間: {now_jst}")
 if is_lunch_time():
     st.write(f"ランチタイムだよ")
 else:
-    st.wirte(f"ランチタイムじゃないよ")
+    st.write(f"ランチタイムじゃないよ")
