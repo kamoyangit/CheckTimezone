@@ -5,7 +5,7 @@ import os
 
 # --- デバッグフラグ ---
 # ここをTrue/Falseで切り替える
-DEBUG = os.environ.get('DEBUG_OPTION')
+DEBUG = os.environ.get('DEBUG_OPTION', 'False')
 # --------------------
 
 # --- ヘルパー関数 ---
